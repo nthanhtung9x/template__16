@@ -1,0 +1,537 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link href="https://fonts.googleapis.com/css2?family=Open+Sans:wght@300;400;600;700&display=swap" rel="stylesheet">
+    <link rel="stylesheet" href="https://pro.fontawesome.com/releases/v5.10.0/css/all.css" integrity="sha384-AYmEC3Yw5cVb3ZcuHtOA93w35dYTsvhLPVnYs9eStHfGJvOvKxVfELGroGkvsg+p" crossorigin="anonymous"/>
+    <link rel="stylesheet" href="./assets/css/base.css">
+    <link rel="stylesheet" href="./assets/css/main.css">
+    <link rel="stylesheet" href="./assets/css/responsive.css">
+    <title>Bake layout</title>
+</head>
+<body>
+    <header class="header">
+        <div class="grid">
+            <div class="wide">
+                <div class="header__wrap">
+                    <a href="">
+                        BAKE
+                    </a>
+                    <ul class="navbar c-0">
+                        <li><a href="" class="active">HOME</a></li>
+                        <li><a href="">ABOUT</a></li>
+                        <li><a href="">SERVICES</a></li>
+                        <li><a href="">GALLERY</a></li>
+                        <li><a href="">CLIENTS</a></li>
+                        <li><a href="">CONTACT</a></li>
+                    </ul>
+
+                    <div class="nav__mobile l-0 m-0">
+                        <label for="menu" class="nav__btn">
+                            <span></span>
+                            <span></span>
+                            <span></span>
+                        </label>
+                        <input type="checkbox" id="menu" hidden>
+                        <label for="menu" class="bg__collapse"></label>
+                        <div class="nav__wrapper">
+                            <div class="nav__controls">
+                                <a href="#">
+                                    <span>B</span>AKE
+                                </a>
+                                <label for="menu">
+                                    <img src="./assets/images/close.png" alt="">
+                                </label>
+                            </div>
+                            <ul class="navbar__mobile">
+                                <li><a href="" class="active">HOME</a></li>
+                                <li><a href="">ABOUT</a></li>
+                                <li><a href="">SERVICES</a></li>
+                                <li><a>GALLERY</a></li>
+                                <li><a href="">CLIENTS</a></li>
+                                <li><a href="">CONTACT</a></li>
+                            </ul>
+                        </div>
+                    </div>
+                </div>
+            </div>
+        </div>
+    </header>
+    <section class="carousel" id="top">
+        <div class="carousel__item">
+            <img src="./assets/images/b3.jpg" alt="">
+            <div class="carousel__text">
+                <h1>
+                    Best Bake Here
+                </h1>
+                <p>Lorem ipsum dolor sit amet consectetur adipisicing elit. Laborum, quasi?</p>
+                <button>LEARN MORE</button>
+            </div>
+        </div>
+
+        <div class="carousel__item">
+            <img src="./assets/images/g4.jpg" alt="">
+            <div class="carousel__text">
+                <h1>
+                    Best Bake Here
+                </h1>
+                <p>Lorem ipsum dolor sit amet consectetur adipisicing elit. Laborum, quasi?</p>
+                <button>LEARN MORE</button>
+            </div>
+        </div>
+
+        <div class="carousel__item">
+            <img src="./assets/images/g5.jpg" alt="">
+            <div class="carousel__text">
+                <h1>
+                    Best Bake Here
+                </h1>
+                <p>Lorem ipsum dolor sit amet consectetur adipisicing elit. Laborum, quasi?</p>
+                <button>LEARN MORE</button>
+            </div>
+        </div>
+        <div class="carousel__control">
+            <button id="btn--prev" onclick="changeCarousel(-2)">
+                <img src="./assets/images/img-sprite.png" alt="">
+            </button>
+            <button id="btn--next" onclick="changeCarousel(1)">
+                <img src="./assets/images/img-sprite.png" alt="">
+            </button>
+        </div>
+    </section>
+    <section class="intro">
+        <div class="intro__item">
+            <div class="intro__item__wrap-1">
+                <h2>Tradition</h2>
+                <p>Lorem ipsum dolor sit amet consectetur adipisicing elit. Ab, natus aliquid. Veniam maiores temporibus vel repellat deserunt voluptatem dignissimos distinctio!</p>
+            </div>
+            <div class="intro__item__wrap-2">
+                <img src="./assets/images/ab1.jpg" alt="">
+            </div>
+            <div class="intro__item__wrap-3">
+                <h2>Creativity</h2>
+                <p>Lorem, ipsum dolor sit amet consectetur adipisicing elit. Labore, deleniti quas adipisci quibusdam modi eius facilis non provident ut distinctio!</p>
+            </div>
+        </div>
+
+        <div class="intro__item">
+            <div class="intro__item__wrap-1">
+                <h2>What We Bake Best For You</h2>
+                <p>Lorem ipsum dolor sit amet consectetur adipisicing elit. Ab, natus aliquid. Veniam maiores temporibus vel repellat deserunt voluptatem dignissimos distinctio!</p>
+            </div>
+            <div class="intro__item__wrap-2">
+                <img src="./assets/images/ab2.jpg" alt="">
+            </div>
+            <div class="intro__item__wrap-3">
+                <h2>Quanlity</h2>
+                <p>Lorem, ipsum dolor sit amet consectetur adipisicing elit. Labore, deleniti quas adipisci quibusdam modi eius facilis non provident ut distinctio!</p>
+            </div>
+        </div>
+
+        <div class="intro__item">
+            <div class="intro__item__wrap-1">
+               <img src="./assets/images/ab3.jpg" alt="">
+            </div>
+            <div class="intro__item__wrap-2">
+                <h2>Tasty Cakes</h2>
+                <p>Lorem, ipsum dolor sit amet consectetur adipisicing elit. Labore, deleniti quas adipisci quibusdam modi eius facilis non provident ut distinctio!</p>
+            </div>
+            <div class="intro__item__wrap-3">
+                <img src="./assets/images/ab4.jpg" alt="">
+            </div>
+        </div>
+    </section>
+    <section class="statistic">
+        <div class="grid">
+            <div class="wide">
+                <div class="row">
+                    <div class="col l-3 m-3 c-6">
+                        <div class="statistic__item">
+                            <h2>455</h2>
+                            <p>Coffee</p>
+                        </div>
+                    </div>
+
+                    <div class="col l-3 m-3 c-6">
+                        <div class="statistic__item">
+                            <h2>85</h2>
+                            <p>Happy Client</p>
+                        </div>
+                    </div>
+
+                    <div class="col l-3 m-3 c-6">
+                        <div class="statistic__item">
+                            <h2>1</h2>
+                            <p>Experience</p>
+                        </div>
+                    </div>
+
+                    <div class="col l-3 m-3 c-6">
+                        <div class="statistic__item">
+                            <h2>126</h2>
+                            <p>Expert Worker</p>
+                        </div>
+                    </div>
+                </div>
+            </div>
+        </div>
+    </section>
+    <section class="video">
+        <div class="grid">
+            <div class="wide">
+                <div class="row">
+                    <div class="col l-6 m-6 c-12">
+                        <iframe height="400px" width="100%" src="https://www.youtube.com/embed/jgvoRWTCW8c" controls></iframe>
+                    </div>
+                    <div class="col l-6 m-6 c-12">
+                        <iframe height="400px" width="100%" src="https://www.youtube.com/embed/ye07jLdx8Yk" controls></iframe>
+                    </div>
+                </div>
+            </div>
+        </div>
+    </section>
+    <section class="team">
+        <div class="grid">
+            <div class="wide">
+                <div class="row">
+                    <div class="col l-4 m-6 c-12">
+                        <div class="team__member">
+                            <img src="./assets/images/t1.jpg" alt="">
+                            <div class="team__member__text">
+                                <h2>John Simon</h2>
+                                <p>-Cake Marker</p>
+                            </div>
+                            <div class="team__member__text--hover">
+                                <h2>John Simon</h2>
+                                <p>-Cake Marker</p>
+                                <p>Lorem, ipsum dolor sit amet consectetur adipisicing elit. Ea, deserunt.</p>
+                                <p>
+                                    <a href="">
+                                        <i class="fab fa-facebook-square"></i>
+                                    </a>
+                                    <a href="">
+                                        <i class="fab fa-google-plus-square"></i>
+                                    </a>
+                                    <a href="">
+                                        <i class="fab fa-twitter-square"></i>
+                                    </a>
+                                </p>
+                            </div>
+                        </div>
+                    </div>
+
+                    <div class="col l-4 m-6 c-12">
+                        <div class="team__member">
+                            <img src="./assets/images/t2.jpg" alt="">
+                            <div class="team__member__text">
+                                <h2>Max Will</h2>
+                                <p>-Cake Marker</p>
+                            </div>
+                            <div class="team__member__text--hover">
+                                <h2>JMax Will</h2>
+                                <p>-Cake Marker</p>
+                                <p>Lorem, ipsum dolor sit amet consectetur adipisicing elit. Ea, deserunt.</p>
+                                <p>
+                                    <a href="">
+                                        <i class="fab fa-facebook-square"></i>
+                                    </a>
+                                    <a href="">
+                                        <i class="fab fa-google-plus-square"></i>
+                                    </a>
+                                    <a href="">
+                                        <i class="fab fa-twitter-square"></i>
+                                    </a>
+                                </p>
+                            </div>
+                        </div>
+                    </div>
+
+                    <div class="col l-4 m-6 c-12">
+                        <div class="team__member">
+                            <img src="./assets/images/t3.jpg" alt="">
+                            <div class="team__member__text">
+                                <h2>Rose Murphy</h2>
+                                <p>-Staff Manager</p>
+                            </div>
+                            <div class="team__member__text--hover">
+                                <h2>Rose Murphy</h2>
+                                <p>-Staff Manager</p>
+                                <p>Lorem, ipsum dolor sit amet consectetur adipisicing elit. Ea, deserunt.</p>
+                                <p>
+                                    <a href="">
+                                        <i class="fab fa-facebook-square"></i>
+                                    </a>
+                                    <a href="">
+                                        <i class="fab fa-google-plus-square"></i>
+                                    </a>
+                                    <a href="">
+                                        <i class="fab fa-twitter-square"></i>
+                                    </a>
+                                </p>
+                            </div>
+                        </div>
+                    </div>
+
+                    <div class="col l-4 m-6 c-12">
+                        <div class="team__member">
+                            <img src="./assets/images/t4.jpg" alt="">
+                            <div class="team__member__text">
+                                <h2>John Simon</h2>
+                                <p>-Cake Marker</p>
+                            </div>
+                            <div class="team__member__text--hover">
+                                <h2>John Simon</h2>
+                                <p>-Cake Marker</p>
+                                <p>Lorem, ipsum dolor sit amet consectetur adipisicing elit. Ea, deserunt.</p>
+                                <p>
+                                    <a href="">
+                                        <i class="fab fa-facebook-square"></i>
+                                    </a>
+                                    <a href="">
+                                        <i class="fab fa-google-plus-square"></i>
+                                    </a>
+                                    <a href="">
+                                        <i class="fab fa-twitter-square"></i>
+                                    </a>
+                                </p>
+                            </div>
+                        </div>
+                    </div>
+
+                    <div class="col l-4 m-6 c-12">
+                        <div class="team__member">
+                            <img src="./assets/images/t3.jpg" alt="">
+                            <div class="team__member__text">
+                                <h2>Barbara Will</h2>
+                                <p>-Cake Marker</p>
+                            </div>
+                            <div class="team__member__text--hover">
+                                <h2>Barbara Will</h2>
+                                <p>-Cake Marker</p>
+                                <p>Lorem, ipsum dolor sit amet consectetur adipisicing elit. Ea, deserunt.</p>
+                                <p>
+                                    <a href="">
+                                        <i class="fab fa-facebook-square"></i>
+                                    </a>
+                                    <a href="">
+                                        <i class="fab fa-google-plus-square"></i>
+                                    </a>
+                                    <a href="">
+                                        <i class="fab fa-twitter-square"></i>
+                                    </a>
+                                </p>
+                            </div>
+                        </div>
+                    </div>
+
+                    <div class="col l-4 m-6 c-12">
+                        <div class="team__member">
+                            <img src="./assets/images/t2.jpg" alt="">
+                            <div class="team__member__text">
+                                <h2>Derek Bybee</h2>
+                                <p>-Cake Marker</p>
+                            </div>
+                            <div class="team__member__text--hover">
+                                <h2>Derek Bybee</h2>
+                                <p>-Cake Marker</p>
+                                <p>Lorem, ipsum dolor sit amet consectetur adipisicing elit. Ea, deserunt.</p>
+                                <p>
+                                    <a href="">
+                                        <i class="fab fa-facebook-square"></i>
+                                    </a>
+                                    <a href="">
+                                        <i class="fab fa-google-plus-square"></i>
+                                    </a>
+                                    <a href="">
+                                        <i class="fab fa-twitter-square"></i>
+                                    </a>
+                                </p>
+                            </div>
+                        </div>
+                    </div>
+                </div>
+            </div>
+        </div>
+    </section>
+    <section class="contact">
+        <div class="grid">
+            <div class="wide">
+                <h1>CONTACT</h1>
+                <form action="">
+                    <div class="row no-gutter">
+                        <div class="col l-6 m-6 no-gutter c-12">
+                            <input type="text" placeholder="Name">
+                        </div>
+                        <div class="col l-6 m-6 no-gutter c-12">
+                            <input type="text" placeholder="Last Name">
+                        </div>
+                        <div class="col l-6 m-6 no-gutter c-12">
+                            <input type="email" placeholder="Email">
+                        </div>
+                        <div class="col l-6 m-6 no-gutter c-12">
+                            <input type="number" placeholder="phone">
+                        </div>
+                    </div>
+                    <textarea name="" id="" cols="30" rows="10" placeholder="Message"></textarea>
+                    <input type="submit" value="Send">
+                </form>
+            </div>
+        </div>
+        <br>
+        <div id="map">
+            <iframe src="https://www.google.com/maps/embed?pb=!1m10!1m8!1m3!1d8027279.908398558!2d106.6991616!3d10.767564799999999!3m2!1i1024!2i768!4f13.1!5e0!3m2!1svi!2s!4v1588997732147!5m2!1svi!2s" width="600" height="450" frameborder="0" style="border:0;" allowfullscreen="" aria-hidden="false" tabindex="0"></iframe>
+        </div>
+        <div class="contact__info">
+            <div class="grid">
+                <div class="wide">
+                    <div class="row">
+                        <div class="col l-4 m-4 c-12">
+                            <div class="contact__info__wrap">
+                                <i class="fas fa-home"></i>
+                                <p>2543 Road St.121</p>
+                                <p>USA New Hill</p>
+                            </div>
+                        </div>
+                        <div class="col l-4 m-4 c-12">
+                            <div class="contact__info__wrap">
+                                <i class="fas fa-phone"></i>
+                                <p>+123 345 567</p>
+                                <p>+999 999 999</p>
+                            </div>
+                        </div>
+                        <div class="col l-4 m-4 c-12">
+                            <div class="contact__info__wrap">
+                                <i class="fas fa-envelope-open"></i>
+                                <p>info@example1.com</p>
+                                <p>info@example2.com</p>
+                            </div>
+                        </div>
+                    </div>
+                </div>
+            </div>
+        </div>
+    </section>
+    <footer class="footer">
+        <div class="grid">
+            <div class="wide">
+                <div class="row">
+                    <div class="col l-3 m-6 c-12">
+                        <h1>About us</h1>
+                        <p>Lorem ipsum dolor sit, amet consectetur adipisicing elit. Soluta delectus fuga numquam reiciendis pariatur voluptatibus in, praesentium facilis? Quos, cum.</p>
+                        <p>Lorem, ipsum dolor sit amet consectetur adipisicing elit. Non, adipisci?</p>
+                        <p>
+                            <a href="">
+                                <i class="fab fa-facebook-square"></i>
+                            </a>
+                            <a href="">
+                                <i class="fab fa-google-plus-square"></i>
+                            </a>
+                            <a href="">
+                                <i class="fab fa-twitter-square"></i>
+                            </a>
+                        </p>
+                    </div>
+
+                    <div class="col l-3 m-6 c-12">
+                        <h1>Working time</h1>
+                        <ul>
+                            <li>
+                                <p>Monday</p>
+                                <p>9.30-18.30</p>
+                            </li>
+                            <li>
+                                <p>Tuesday</p>
+                                <p>9.30-18.30</p>
+                            </li>
+                            <li>
+                                <p>Webnesday</p>
+                                <p>9.30-18.30</p>
+                            </li>
+                            <li>
+                                <p>Thursday</p>
+                                <p>9.30-18.30</p>
+                            </li>
+                            <li>
+                                <p>Friday</p>
+                                <p>9.30-18.30</p>
+                            </li>
+                            <li>
+                                <p>Saturday</p>
+                                <p>9.30-18.30</p>
+                            </li>
+                            <li>
+                                <p>Sunday</p>
+                                <p>closed</p>
+                            </li>
+                        </ul>
+                    </div>
+
+                    <div class="col l-3 m-6 c-12">
+                        <h1>Twitter Us</h1>
+                        <p>Lorem ipsum, dolor sit amet consectetur adipisicing elit.</p>
+                        <p>Lorem ipsum, dolor sit amet consectetur adipisicing elit.</p>
+                        <p>Lorem ipsum, dolor sit amet consectetur adipisicing elit.</p>
+                        <p>Lorem ipsum, dolor sit amet consectetur adipisicing elit.</p>
+                    </div>
+
+                    <div class="col l-3 m-6 c-12">
+                        <h1>SUBSCRIBE US</h1>
+                        <form action="">
+                            <input type="email" placeholder="name@example.com">
+                            <input type="submit" value="Send">
+                        </form>
+                       <p>Lorem ipsum dolor sit amet consectetur, adipisicing elit. Quidem minus a nostrum dolore totam autem.</p>
+                    </div>
+                </div>
+            </div>
+        </div>
+    </footer>
+
+    <a class="scrollTop" href="#top">
+        <img src="./assets/images/to-top.png" alt="">
+    </a>
+
+    <script>
+        window.addEventListener('scroll',function(){
+            const header = document.getElementsByClassName('header')[0];
+            if(window.pageYOffset >= 60){
+                header.classList.add('scroll');
+            } else {
+                header.className = header.className.replace("scroll","");
+            }
+        });
+
+        //carousel
+        var carouselItem = document.getElementsByClassName('carousel__item');
+        var index = 0;
+        function changeCarousel(count) {
+            clearTime();
+            index += count;
+            carousel();
+        }
+
+        function autoCarousel() {
+            myVar = setTimeout(carousel,4000);
+        }
+        function clearTime() {
+            clearTimeout(myVar);
+        }
+        function carousel() {
+            for(let i = 0; i < carouselItem.length; i++) {
+                carouselItem[i].style.display = 'none';
+            }
+            if(index > carouselItem.length - 1) {
+                index = 0;
+            } else if (index < 0) {
+                index = carouselItem.length - 1;
+            }
+            carouselItem[index].style.display = 'block';
+            index++;
+            autoCarousel();
+        }
+
+        carousel();
+    </script>
+</body>
+</html>
